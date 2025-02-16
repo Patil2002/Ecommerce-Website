@@ -1,5 +1,5 @@
-{ "homepage":"https://patil2002.github.io/Ecommerce-Website/",
-  "name": "flipkart-clone",
+{ 
+  "name": "ecommerce-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
