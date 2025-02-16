@@ -7,20 +7,20 @@ import "./App.css";
 const products = {
   Mobiles: {
       Samsung: [
-          { id: 1, name: "Samsung Galaxy S23", price: 999, description: "Latest flagship from Samsung.", image: "/images/samsung-s23.jpg" },
-          { id: 2, name: "Samsung Galaxy A54", price: 499, description: "Mid-range smartphone from Samsung.", image: "/images/samsung-a54.jpeg" }
+          { id: 1, name: "Samsung Galaxy S23", price: 999, description: "Latest flagship from Samsung.", image: `${process.env.PUBLIC_URL}/images/samsung-s23.jpg` },
+          { id: 2, name: "Samsung Galaxy A54", price: 499, description: "Mid-range smartphone from Samsung.", image: `${process.env.PUBLIC_URL}/images/samsung-a54.jpeg` }
       ],
       Apple: [
-          { id: 3, name: "iPhone 14", price: 1099, description: "Apple’s latest iPhone.", image: "/images/iphone-14.jpeg" },
-          { id: 4, name: "iPhone SE", price: 599, description: "Affordable Apple smartphone.", image: "/images/iphone-se.jpeg" }
+          { id: 3, name: "iPhone 14", price: 1099, description: "Apple’s latest iPhone.", image: `${process.env.PUBLIC_URL}/images/iphone-14.jpeg` },
+          { id: 4, name: "iPhone SE", price: 599, description: "Affordable Apple smartphone.", image: `${process.env.PUBLIC_URL}/images/iphone-se.jpeg` }
       ]
   },
   Electronics: {
       LG: [
-          { id: 5, name: "LG Washing Machine", price: 499, description: "High-efficiency front-load washing machine.", image: "/images/lg-washing-machine.jpeg" }
+          { id: 5, name: "LG Washing Machine", price: 499, description: "High-efficiency front-load washing machine.", image: `${process.env.PUBLIC_URL}/images/lg-washing-machine.jpeg` }
       ],
       Samsung: [
-          { id: 6, name: "Samsung Fridge", price: 699, description: "Energy-efficient fridge.", image: "/images/samsung-fridge.jpeg" }
+          { id: 6, name: "Samsung Fridge", price: 699, description: "Energy-efficient fridge.", image: `${process.env.PUBLIC_URL}/images/samsung-fridge.jpeg` }
       ]
   }
 };
